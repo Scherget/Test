@@ -57,7 +57,7 @@ public class Main extends Activity {
 
         @Override
         public void onInitalize() {
-            // convert pixel
+            // convert pixel_
             int XY = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 16, getResources().getDisplayMetrics());
 
             paint.setColor(Color.BLACK);
